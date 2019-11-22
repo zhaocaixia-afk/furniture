@@ -1,0 +1,203 @@
+body{
+    background-color: #efefef;
+}
+.product_first_img{
+    width: 1366px;
+    height: 400px;
+    background: url("../img/imagesproduct/banner_goodz.png") no-repeat 0 0;
+}
+/*产品展示标题*/
+.come_title{
+    margin: 20px 0 20px 6%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #989898;
+    cursor: pointer;
+}
+.titleImg{
+    width: 6px;
+    height: 35px;
+    margin-right: 1%;
+}
+/*产品展示下的第一个区域*/
+.product_catalog{
+    width: 88%;
+    height: 327px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+.catalog_list{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 165px;
+    height: 296px;
+    background: url("../img/imagesproduct/left_tab_bg.png") no-repeat 0 0;
+}
+.catalog_item{
+    list-style: none;
+    line-height: 48px;
+    text-align: center;
+    font-size: 25px;
+}
+.safaImg{
+    position: absolute;
+    width: 399px;
+    height: 220px;
+    left: 200px;
+}
+.safa_message{
+    position: absolute;
+    width: 399px;
+    height: 50px;
+    bottom: 10px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #606060;
+}
+.product_money{
+    color: #fee500;
+}
+.safa2Img{
+    width: 399px;
+    height: 220px;
+    position: absolute;
+    right: 100px;
+    background-color: blue;
+    top: 40px;
+}
+.product_mask{
+    width: 500px;
+    height: 300px;
+    background-color: #feea33;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding:130px 80px 0;
+    text-indent: 16px;
+    color: #fbf9f7;
+    font-size: 14px;
+}
+/*六宫格*/
+.six_img{
+    width: 88%;
+    height: 620px;
+    background-color: #efefef;
+    margin: 10px auto 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.six_item{
+    list-style: none;
+    width: 32%;
+    height: 300px;
+    background-color: white;
+    padding: 10px 0 0 8px;
+}
+.sixImg{
+    width: 360px;
+    height: 250px;
+}
+.six_content{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #606060;
+}
+/*页数切换按钮*/
+.button_list{
+    width: 400px;
+    margin: 30px auto;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+.button_list>li{
+    background-color: white;
+    padding: 1px 7px;
+}
+.button_list>li[class=current]{
+    background-color: #aeea73;
+}
+
+/*产品细节展示*/
+.product_detail{
+    display: none;
+}
+.product_detailImg{
+    width: 18px;
+    height: 17px;
+    margin: 0 1%;
+}
+.small_title{
+    font-size: 18px;
+}
+.product_safaImg{
+    position: absolute;
+    left: 300px;
+    width: 600px;
+    height: 327px;
+    top: 0;
+}
+.detail_safa_message{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #cdcdcd;
+    font-size: 20px;
+    padding: 0 3% 0 13%;
+}
+.detail_safa_message>p{
+    display: flex;
+    line-height: 40px;
+    justify-content: space-between;
+}
+.product_produce{
+    width: 88%;
+    height: 750px;
+    background-color: white;
+    margin: 50px auto 0 auto;
+    position: relative;
+    padding: 50px 70px 0 75px;
+}
+.produce_logo{
+    width: 256px;
+    height: 48px;
+    background: url("../img/imagesdetail/l.png") no-repeat 0 0;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -128px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 38px;
+    text-align: center;
+}
+.produceImg{
+    width: 1048px;
+    height: 427px;
+    background: url("../img/imagesdetail/detail.png")no-repeat 0 0;
+    margin-bottom: 20px;
+}
+.produce_text{
+    color: #7d7d7d;
+    text-indent: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}

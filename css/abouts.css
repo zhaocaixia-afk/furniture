@@ -1,0 +1,142 @@
+body{
+    background-color: #efefef;
+}
+/*公司简介标题*/
+.come_title{
+    margin: 50px 0 10px 6%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #989898;
+}
+.titleImg{
+    width: 6px;
+    height: 35px;
+    margin-right: 1%;
+}
+/*公司简介内容*/
+.company_content{
+    width: 1200px;
+    height: 580px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px 93px 0 93px;
+    color: #9999b3;
+    line-height: 30px;
+}
+.contentImg{
+    width: 1013px;
+    height: 361px;
+    margin-bottom: 20px;
+}
+/*企业理念内容*/
+.company_think{
+    width: 1200px;
+    height: 160px;
+    background-color: white;
+    margin: 0 auto;
+    padding:20px 100px;
+    line-height: 60px;
+    color: #9999b3;
+}
+/*联系我们*/
+.message_container{
+    display: none;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.message_content{
+    width: 580px;
+    height: 550px;
+    background-color: white;
+    opacity: 0.9;
+    margin:  40px auto 0 auto;
+    position: relative;
+}
+.messageImg{
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    width: 140px;
+    height: 49px;
+    background: url("../img/images_liuyian/title_bg.png") no-repeat 0 0;
+    font-size: 26px;
+    text-align: center;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 49px;
+}
+/*下面整个表单*/
+.user_info{
+    position: absolute;
+    width: 580px;
+    height: auto;
+    top: 60px;
+    list-style: none;
+    padding: 10px 0 0 45px;
+}
+.user_info>li{
+    display: flex;
+    margin-bottom: 20px;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+}
+.userIcon{
+    width: 14px;
+    height: 12px;
+    margin-right: 20%;
+}
+label>p{
+    white-space: nowrap;
+    margin-right: 10%;
+}
+sup{
+    color: red;
+}
+.user_info>li>input{
+    height: 35px;
+    width: 60%;
+}
+.quest_title{
+    display: flex;
+}
+.questImg{
+    width: 22px;
+    height: 22px;
+}
+.quest_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px 0 0 20px;
+}
+.quest_item{
+    margin:0 10% 20px 0;
+}
+textarea{
+    margin: 10px 0 0 20px;
+    resize: none;
+    outline: none;
+}
+input[type='submit']{
+    display: block;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: none;
+    background-color: #ffd61a;
+    font-size: 18px;
+}
